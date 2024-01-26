@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"golang/ejercicios"
+	"golang/teclado"
 	"golang/variables"
 	"runtime"
 )
@@ -32,4 +33,6 @@ func main() {
 	entero, texto := ejercicios.Funcion("100")
 	fmt.Println("Entero", entero)
 	fmt.Println("Texto", texto)
+
+	teclado.IngresoNumeros()
 }
