@@ -38,5 +38,6 @@ func main() {
 	//files.GrabaTabla()
 	//files.SumaTabla()
 	//files.LeerArchivo()
-	funciones.Calculos()
+	//funciones.Calculos()
+	funciones.LlamarClosure()
 }
