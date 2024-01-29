@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang/files"
+	"golang/funciones"
 )
 
 func main() {
@@ -35,7 +35,8 @@ func main() {
 	*/
 
 	//teclado.TablaMultiplicar()
-	files.GrabaTabla()
-	files.SumaTabla()
-	files.LeerArchivo()
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	//files.LeerArchivo()
+	funciones.Calculos()
 }
