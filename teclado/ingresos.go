@@ -49,3 +49,13 @@ func IngresoNumeros() {
 	fmt.Println(leyenda, numero1*numero2)
 
 }
+
+func TablaMultiplicar() string {
+	numero := 50
+	texto := ""
+
+	for i := 0; i < 10; i++ {
+		texto += fmt.Sprintf("%d x %d = %d \n", numero, i, numero*i)
+	}
+	return texto
+}
