@@ -36,4 +36,6 @@ func main() {
 
 	//teclado.TablaMultiplicar()
 	files.GrabaTabla()
+	files.SumaTabla()
+	files.LeerArchivo()
 }
