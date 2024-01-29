@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"golang/funciones"
 )
 
@@ -39,5 +40,6 @@ func main() {
 	//files.SumaTabla()
 	//files.LeerArchivo()
 	//funciones.Calculos()
-	funciones.LlamarClosure()
+	//funciones.LlamarClosure()
+	fmt.Println(funciones.Factorial(5))
 }
