@@ -1,8 +1,6 @@
 package main
 
-import (
-	"golang/arreglos_slices"
-)
+import "golang/mapas"
 
 func main() {
 	/*
@@ -44,5 +42,6 @@ func main() {
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.MuestroSlice()
 
-	arreglos_slices.Capacidad()
+	//arreglos_slices.Capacidad()
+	mapas.MuestroMapa()
 }
