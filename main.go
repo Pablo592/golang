@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"golang/funciones"
+	"golang/arreglos_slices"
 )
 
 func main() {
@@ -41,5 +40,9 @@ func main() {
 	//files.LeerArchivo()
 	//funciones.Calculos()
 	//funciones.LlamarClosure()
-	fmt.Println(funciones.Factorial(5))
+	//fmt.Println(funciones.Factorial(5))
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlice()
+
+	arreglos_slices.Capacidad()
 }
