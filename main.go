@@ -1,6 +1,8 @@
 package main
 
-import "golang/webserver"
+import (
+	"golang/middleware"
+)
 
 func main() {
 	/*
@@ -57,5 +59,7 @@ func main() {
 	//estado := <-canal1
 	//fmt.Println(estado)
 
-	webserver.MiWebServer()
+	//webserver.MiWebServer()
+
+	middleware.MiMiddleware()
 }
