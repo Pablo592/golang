@@ -1,9 +1,6 @@
 package main
 
-import (
-	"golang/ejer_interfaces"
-	"golang/modelos"
-)
+import "golang/defer_panic"
 
 func main() {
 	/*
@@ -48,9 +45,10 @@ func main() {
 	//arreglos_slices.Capacidad()
 	//mapas.MuestroMapa()
 	//users.AltaUsuario()
-	Pedro := new(modelos.Hombre)
-	ejer_interfaces.HumanosRespirando(Pedro)
+	//Pedro := new(modelos.Hombre)
+	//ejer_interfaces.HumanosRespirando(Pedro)
+	//Maria := new(modelos.Mujer)
+	//ejer_interfaces.HumanosRespirando(Maria)
 
-	Maria := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirando(Maria)
+	defer_panic.VemosPanic()
 }
