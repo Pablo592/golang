@@ -1,6 +1,9 @@
 package main
 
-import "golang/defer_panic"
+import (
+	"fmt"
+	"golang/goroutines"
+)
 
 func main() {
 	/*
@@ -50,5 +53,10 @@ func main() {
 	//Maria := new(modelos.Mujer)
 	//ejer_interfaces.HumanosRespirando(Maria)
 
-	defer_panic.VemosPanic()
+	//defer_panic.VemosPanic()
+	go goroutines.MiNombreLentooo("Evangelina")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
