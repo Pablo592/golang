@@ -1,6 +1,9 @@
 package main
 
-import "golang/mapas"
+import (
+	"golang/ejer_interfaces"
+	"golang/modelos"
+)
 
 func main() {
 	/*
@@ -43,5 +46,11 @@ func main() {
 	//arreglos_slices.MuestroSlice()
 
 	//arreglos_slices.Capacidad()
-	mapas.MuestroMapa()
+	//mapas.MuestroMapa()
+	//users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Maria)
 }
