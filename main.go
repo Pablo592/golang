@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"golang/goroutines"
-)
+import "golang/webserver"
 
 func main() {
 	/*
@@ -54,9 +51,11 @@ func main() {
 	//ejer_interfaces.HumanosRespirando(Maria)
 
 	//defer_panic.VemosPanic()
-	canal1 := make(chan bool)
-	go goroutines.MiNombreLentooo("Evangelina", canal1)
+	//canal1 := make(chan bool)
+	//go goroutines.MiNombreLentooo("Evangelina", canal1)
 
-	estado := <-canal1
-	fmt.Println(estado)
+	//estado := <-canal1
+	//fmt.Println(estado)
+
+	webserver.MiWebServer()
 }
