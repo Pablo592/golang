@@ -1,9 +1,6 @@
 package modelos
 
 type Hombre struct {
-	edad       int
-	altura     float32
-	peso       float32
 	respirando bool
 	pensando   bool
 	comiendo   bool
