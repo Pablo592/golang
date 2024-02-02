@@ -54,9 +54,9 @@ func main() {
 	//ejer_interfaces.HumanosRespirando(Maria)
 
 	//defer_panic.VemosPanic()
-	go goroutines.MiNombreLentooo("Evangelina")
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Evangelina", canal1)
 
-	fmt.Println("Estoy aqui")
-	var x string
-	fmt.Scanln(&x)
+	estado := <-canal1
+	fmt.Println(estado)
 }
